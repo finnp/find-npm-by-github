@@ -1,0 +1,18 @@
+{
+  "name": "find-npm-by-github",
+  "version": "1.0.0",
+  "description": "Find the npm user name of a github name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.49.0",
+    "run-parallel": "^1.0.0"
+  },
+  "devDependencies": {
+    "okdone": "^0.3.0"
+  }
+}
