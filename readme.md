@@ -1,5 +1,9 @@
 # find-npm-by-github
 
+Windows | Mac/Linux
+------- | ---------
+[![Windows Build status](http://img.shields.io/appveyor/ci/finnp/find-npm-by-github.svg)](https://ci.appveyor.com/project/finnp/find-npm-by-github/branch/master) | [![Build Status](https://travis-ci.org/finnp/find-npm-by-github.svg?branch=master)](https://travis-ci.org/finnp/find-npm-by-github)
+
 Find the npm user name of a github name.
 
 ```js
