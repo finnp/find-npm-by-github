@@ -35,6 +35,7 @@ module.exports = function (token, githubname, cb) {
     
     parallel(moduleInfos, function (err, packages) {
       var candidates = {}
+      if(packages.length === 0) return cb(new Error('No packages for this user'))
       packages
         .filter(function (pkg) {
           return !!pkg && pkg.maintainers && pkg.maintainers.length > 0

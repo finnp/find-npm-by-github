@@ -25,5 +25,11 @@ parallel(tests, function (err, users) {
     assert.equal(user, testUsers[i].npm)
     ok(testUsers[i].npm)
   })
-  ok.done()
+  
+  find('dat-irc-bot', function (err, user) {
+    assert.ok(err)
+    ok('no packages for this user')
+    ok.done()
+  })
+  
 })
